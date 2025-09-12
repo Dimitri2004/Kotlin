@@ -16,9 +16,9 @@ fun main() {
 
     for (i in 0..3){
         cities(" nombre ciudad :${ciudad[i]}")
-        numer(" minima : ${min[i]}")
-        numer (" maxima : ${max[i]}")
-        numer (" porcentage : ${chance[i]}")
+        numer(" minima : ${min[i]}ºC")
+        numer (" maxima : ${max[i]}ºC")
+        numer (" porcentage : ${chance[i]}%")
         println()
     }
 
@@ -28,12 +28,12 @@ fun main() {
 }
 fun cities(ciudad : String){
     for (name in ciudad) {
-        print("$name")
+        print(name)
 
     }
 }
 fun numer(min :String){
     for (m in min){
-        print("$m")
+        print(m)
     }
 }
