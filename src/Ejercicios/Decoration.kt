@@ -15,7 +15,6 @@ fun makeDecorations() {
 }
 fun main(){
     makeDecorations()
-
 }
 
 
