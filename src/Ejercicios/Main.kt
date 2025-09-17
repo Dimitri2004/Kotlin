@@ -2,12 +2,6 @@ package Ejercicios
 
 import kotlin.text.iterator
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-/**
- * You can edit, run, and share this code.
- * play.kotlinlang.org
- */
 fun main() {
     val ciudad = listOf("Ankara","Tokyo","Cape Town","Guatemala City")
     val min= listOf(27,32,59,50)
@@ -21,10 +15,6 @@ fun main() {
         numer (" porcentage : ${chance[i]}%")
         println()
     }
-
-
-
-
 }
 fun cities(ciudad : String){
     for (name in ciudad) {
