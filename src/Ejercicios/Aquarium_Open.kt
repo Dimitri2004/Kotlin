@@ -17,7 +17,7 @@ open class Aquarium_Open(open var height : Int =50, open var width : Int = 60 ,o
         println("Width: $width cm " +
                 "Length: $length cm " +
                 "Height: $height cm ")
-        // 1 l = 1000 cm^3
+
         println("Volume: $volume l Water: $water l (${water/volume*100.0}% full)")
     }
 }

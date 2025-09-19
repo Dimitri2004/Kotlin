@@ -35,14 +35,12 @@ fun main(){
     makeDecoration()
     var Prueba1= Walrus()
     var Prueba2= SeaLion()
-
     println( matchSeal(Prueba1))
     println( matchSeal(Prueba2))
 
 }
 class Decoration{
     data class Decoration(val rocks:String){
-
     }
 }
 fun makeDecoration(){
